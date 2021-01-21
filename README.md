@@ -1,11 +1,20 @@
-package com.example;
+## Example
 
+- [OkHttpClientUtil.java](./src/main/java/com/example/okhttp/OkHttpClientUtil.java)
+> Builder Pattern
+
+- [NexledgerRPCHttpClient.java](./src/main/java/com/example/okhttp/NexledgerRPCHttpClient.java)
+> Just instantiate by init method
+
+<details>
+    <summary>Detail</summary>
+    <p>
+
+```java
 import com.example.okhttp.NexledgerRPCHttpClient;
 import com.example.okhttp.OkHttpClientUtil;
 import com.example.okhttp.model.EndPoint;
-import okhttp3.HttpUrl;
 
-import java.net.URL;
 import java.util.HashMap;
 
 public class Main {
@@ -42,3 +51,7 @@ public class Main {
         System.out.println(response);
     }
 }
+```
+
+</p>
+</details>
